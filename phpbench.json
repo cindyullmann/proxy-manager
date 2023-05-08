@@ -1,0 +1,11 @@
+{
+    "runner.bootstrap":       "vendor/autoload.php",
+    "runner.path":            "tests/ProxyManagerBench",
+    "runner.retry_threshold": 5,
+    "runner.warmup":          2,
+    "report.outputs":         {
+        "report": {
+            "extends": "aggregate"
+        }
+    }
+}
